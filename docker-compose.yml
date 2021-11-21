@@ -1,0 +1,6 @@
+web:
+  image: nginx:latest
+  container_name: nginx
+  restart: always
+  ports:
+    - "8080:80"
